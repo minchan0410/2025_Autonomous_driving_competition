@@ -1,0 +1,11 @@
+<launch>
+    <!-- params -->
+    <param name="/use_sim_time" value="true"/>
+    <rosparam file="$(find local_planner)/config/main.yaml" command="load"/>
+
+    <!-- occ grid / tf launcher -->
+    <include file="$(find tf_viz_pkg)/launch/tfmaker.launch"/>
+
+    <!-- controller node -->
+    <node pkg="local_planner" type="controller" name="controller" output="screen"/>
+</launch>

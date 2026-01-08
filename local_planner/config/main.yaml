@@ -1,0 +1,5 @@
+# 본선 장애물 회피 파라미터 Sets
+
+Steering_Offset: 2
+Crash_distance: 1.2
+

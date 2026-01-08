@@ -1,0 +1,11 @@
+<launch>
+    
+    <!-- params -->
+    <rosparam file="$(find local_planner)/config/cone.yaml" command="load"/>
+
+    <!-- occ grid / tf launcher -->
+    <include file="$(find tf_viz_pkg)/launch/tfmaker2.launch"/>
+
+    <!-- controller node -->
+    <node pkg="local_planner" type="controller_cone" name="controller_cone" output="screen"/>
+</launch>
