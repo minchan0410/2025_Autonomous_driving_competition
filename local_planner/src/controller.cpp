@@ -52,7 +52,7 @@ double small_min_r = 0.40;
 double small_max_r = 0.40;
 double big_min_r = 0.55;
 double big_max_r = 0.6;
-double crash_dist = 2.7;
+double crash_dist = 2;
 
 double obs_detect_dist = 2.4;
 int obs_detect_left = 35;
@@ -454,12 +454,12 @@ void Compute(){
 
     // Tentacle Parameters
     double m_dist_adj_pts = 0.1; // 점 사이 거리
-    double m_center2rear = 0.4; // (0,0)에서 x축으로 shift하기 위한 변수
+    double m_center2rear = 0; // (0,0)에서 x축으로 shift하기 위한 변수
     double m_velo_e = 9;
     double m_velo_s = 0.9;
     double m_rho = 1.12; //1.12
     double v_j = 2.5;
-    double sizeratio = 0.14; // 전체적인 크기 파라미터
+    double sizeratio = 0.15; // 전체적인 크기 파라미터
     double q_tentacle = pow((v_j - m_velo_s)/(m_velo_e - m_velo_s), (1.0 / 1.2));
     double l_outmost = (8 + 33.5 * pow(q_tentacle, 1.2)) * sizeratio;
     double R_outmost = l_outmost / ((0.6 * M_PI) * (1 - pow(q_tentacle, 0.9)));
@@ -697,7 +697,7 @@ void Compute(){
                             break;
                         }
 
-                        // // Set Crash Distance
+                        // Set Crash Distance
                         // if (c_l > crash_dist){ 
                         //     if(front_check == true || rear_check == true){
                         //         // 장애물이 있어도 1.5m이내는 safePath라고 설정.
