@@ -1,10 +1,8 @@
-## 🚗 자율주행 시연 (Demo)
+## 📊 주행 결과 비교
 
-### 큰 장애물 회피
-![Big Obstacle](.github/bigbos.gif)
-![Big Obstacle Real](.github/bigbos_real.gif)
-![Big Obstacle Real 2](.github/bigobs_real2.gif)
+| 구분 | 시뮬레이션 (Simulation) | 실물 주행 (Real) |
+| :--- | :---: | :---: |
+| **큰 장애물** | ![](.github/bigbos.gif) | ![](.github/bigbos_real.gif) |
+| **작은 장애물** | ![](.github/smallobs.gif) | ![](.github/smallobs_real.gif) |
 
-### 작은 장애물 회피
-![Small Obstacle](.github/smallobs.gif)
-![Small Obstacle Real](.github/smallobs_real.gif)
+> 추가 데이터: [실물 주행 2](.github/bigobs_real2.gif)
