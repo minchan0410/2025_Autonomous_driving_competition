@@ -11,7 +11,7 @@
 
 This code implements the obstacle avoidance algorithm for the **ERP42** platform.
 
-You can change the path shapes and scoring methods depending on the situation.
+You can change the **path shapes** and **scoring methods** depending on the situation.
 
 
 ## Small Obstacle Avoidance
@@ -46,6 +46,7 @@ You can change the path shapes and scoring methods depending on the situation.
 
 **Data Integration Note:**
 Due to system connectivity, only $(x, y)$ coordinates are used from the `/odom` topic. The vehicle's yaw angle in the map frame is separately retrieved and managed via the `/vehicle_yaw` topic.
+
 
 
 
