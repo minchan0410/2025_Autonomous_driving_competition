@@ -17,15 +17,16 @@ You can change the path shapes and scoring methods depending on the situation.
 ## Big Obstacle Avoidance
 
 <p align="center">
-  <img src=".github/bigbos.gif" width="45%">
+  <img src=".github/bigobs.gif" width="45%">
   <img src=".github/bigobs_real2.gif" width="45%">
 </p>
 
 ## Rubber Cone Drive
 
 <p align="center">
-  <img src=".cone/bigbos.gif" width="80%">
+  <img src=".github/cone.gif" width="80%">
 </p>
+
 
 
 
