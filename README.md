@@ -32,8 +32,9 @@ You can change the path shapes and scoring methods depending on the situation.
 
 ## System Pipeline
 <p align="center">
-  <img src=".github/architecture.jpg" width="80%">
+  <img src=".github/architecture.png" width="80%">
 </p>
+
 
 
 
