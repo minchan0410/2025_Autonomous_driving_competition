@@ -1,6 +1,6 @@
 # 2025 무인 모빌리티 경진대회
 
-![Main Page](assets/page.jpg)
+![Main Page](.github/page.jpg)
 
 # Obstacle Avoidance
 
@@ -24,3 +24,4 @@ You can change the path shapes and scoring methods depending on the situation.
 ## Rubber Cone Drive
 
 ![Cone Drive](assets/cone.gif)
+
