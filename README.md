@@ -35,13 +35,16 @@ You can change the path shapes and scoring methods depending on the situation.
 </p>
 
 
-# System Pipeline
+# System Pipeline, Algorithm
 <p align="center">
   <img src=".github/architecture.png" width="80%">
 </p>
-
+<p align="center">
+  <img src=".github/method.png" width="80%">
+</p>
 **Data Integration Note:**
 Due to system connectivity, only $(x, y)$ coordinates are used from the `/odom` topic. The vehicle's yaw angle in the map frame is separately retrieved and managed via the `/vehicle_yaw` topic.
+
 
 
 
