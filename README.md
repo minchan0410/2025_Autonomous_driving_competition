@@ -10,15 +10,15 @@ You can change the path shapes and scoring methods depending on the situation.
 ## Small Obstacle Avoidance
 
 <p align="center">
-  <img src=".github/smallobs.gif" width="45%">
-  <img src=".github/smallobs_real.gif" width="45%">
+  <img src=".github/smallobs.gif" width="28.8%">
+  <img src=".github/smallobs_real.gif" width="51.2%">
 </p>
 
 ## Big Obstacle Avoidance
 
 <p align="center">
-  <img src=".github/bigobs.gif" width="45%">
-  <img src=".github/bigobs_real2.gif" width="45%">
+  <img src=".github/bigobs.gif" width="40%">
+  <img src=".github/bigobs_real2.gif" width="40%">
 </p>
 
 ## Rubber Cone Drive
@@ -26,6 +26,7 @@ You can change the path shapes and scoring methods depending on the situation.
 <p align="center">
   <img src=".github/cone.gif" width="80%">
 </p>
+
 
 
 
