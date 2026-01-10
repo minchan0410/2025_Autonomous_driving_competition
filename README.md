@@ -4,7 +4,7 @@
 
 # Obstacle Avoidance
 
-This code implements the obstacle avoidance algorithm for the ERP42 platform.
+This code implements the obstacle avoidance algorithm for the **ERP42** platform.
 
 You can change the path shapes and scoring methods depending on the situation.
 
@@ -27,6 +27,7 @@ You can change the path shapes and scoring methods depending on the situation.
 <p align="center">
   <img src=".github/cone.gif" width="80%">
 </p>
+
 
 
 
