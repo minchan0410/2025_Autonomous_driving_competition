@@ -39,11 +39,10 @@ You can change the path shapes and scoring methods depending on the situation.
 <p align="center">
   <img src=".github/architecture.png" width="80%">
 </p>
-### Data Coordination
-* **Topic `/odom`**: Used for $(x, y)$ coordinates only.
-* **Topic `/vehicle_yaw`**: Provides the vehicle's yaw angle in the map frame.
 
-**Due to system connectivity, only $(x, y)$ from `/odom` is used, while the vehicle's yaw in the map frame is separately managed via `/vehicle_yaw`.**
+**Data Integration Note:**
+Due to system connectivity, only $(x, y)$ coordinates are used from the `/odom` topic. The vehicle's yaw angle in the map frame is separately retrieved and managed via the `/vehicle_yaw` topic.
+
 
 
 
