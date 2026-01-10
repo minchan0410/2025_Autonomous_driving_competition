@@ -10,18 +10,19 @@ You can change the path shapes and scoring methods depending on the situation.
 ## Small Obstacle Avoidance
 
 <p align="center">
-  <img src="assets/smallobs.gif" width="45%">
-  <img src="assets/smallobs_real.gif" width="45%">
+  <img src=".github/smallobs.gif" width="45%">
+  <img src=".github/smallobs_real.gif" width="45%">
 </p>
 
 ## Big Obstacle Avoidance
 
 <p align="center">
-  <img src="assets/bigbos.gif" width="45%">
-  <img src="assets/bigobs_real2.gif" width="45%">
+  <img src=".github/bigbos.gif" width="45%">
+  <img src=".github/bigobs_real2.gif" width="45%">
 </p>
 
 ## Rubber Cone Drive
 
-![Cone Drive](assets/cone.gif)
+![Cone Drive](.github/cone.gif)
+
 
