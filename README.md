@@ -1,7 +1,25 @@
-## 📊 주행 결과 비교
+# 2025 무인 모빌리티 경진대회
 
-| ![](.github/bigbos.gif) | ![](.github/bigbos_real.gif) |
-| ![](.github/smallobs.gif) | ![](.github/smallobs_real.gif) |
+![overview](page.jpg)
 
-> 추가 데이터: [실물 주행 2](.github/bigobs_real2.gif)
+# Obstacle Avoidance
 
+This code implements an obstacle avoidance algorithm for the ERP42 platform.
+
+You can change the path shapes and scoring methods depending on the situation.
+
+## Small Obstacle Avoidance
+
+| Simulation | Real Vehicle |
+|------------|--------------|
+| ![](smallobs.gif) | ![](smallobs_real.gif) |
+
+## Big Obstacle Avoidance
+
+| Simulation | Real Vehicle |
+|------------|--------------|
+| ![](bigobs.gif) | ![](bigobs_real2.gif) |
+
+## Rabar Cone Drive
+
+![](cone.gif)
