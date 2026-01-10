@@ -1,6 +1,6 @@
 # 2025 무인 모빌리티 경진대회
 
-![overview](page.jpg)
+<img src="page.jpg" width="800"/>
 
 # Obstacle Avoidance
 
@@ -10,16 +10,20 @@ You can change the path shapes and scoring methods depending on the situation.
 
 ## Small Obstacle Avoidance
 
-| Simulation | Real Vehicle |
-|------------|--------------|
-| ![](smallobs.gif) | ![](smallobs_real.gif) |
+<p align="center">
+  <img src="smallobs.gif" width="45%"/>
+  <img src="smallobs_real.gif" width="45%"/>
+</p>
 
 ## Big Obstacle Avoidance
 
-| Simulation | Real Vehicle |
-|------------|--------------|
-| ![](bigobs.gif) | ![](bigobs_real2.gif) |
+<p align="center">
+  <img src="bigbos.gif" width="45%"/>
+  <img src="bigobs_real2.gif" width="45%"/>
+</p>
 
 ## Rabar Cone Drive
 
-![](cone.gif)
+<p align="center">
+  <img src="cone.gif" width="50%"/>
+</p>
