@@ -30,7 +30,10 @@ You can change the path shapes and scoring methods depending on the situation.
   <img src=".github/cone.gif" width="80%">
 </p>
 
-
+## System Pipeline
+<p align="center">
+  <img src=".github/architecture.jpg" width="80%">
+</p>
 
 
 
